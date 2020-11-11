@@ -36,7 +36,7 @@ pipeline {
                     compressLog: true,
                     recipientProviders: [upstreamDevelopers(), requestor()],
                     subject: "Job ${JOB_NAME} (build ${BUILD_NUMBER}) ${currentBuild.result}",
-                    to: 'mandas1@nationwide.com s.gadepalli@nationwide.com'
+                    to: 'millj5@nationwide.com'
                 }
             }
         }
